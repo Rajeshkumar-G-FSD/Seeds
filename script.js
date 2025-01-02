@@ -1,7 +1,9 @@
+
+
+// Handle Food Items
 document.getElementById('add-food-button').addEventListener('click', addFoodItem);
 
 let foodItems = JSON.parse(localStorage.getItem('foodItems')) || [];
-let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
 
 function addFoodItem() {
     const foodName = document.getElementById('food-name').value;
