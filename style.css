@@ -1,0 +1,70 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6ffe6;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #2f855a;
+}
+
+/* Login Section */
+#login-section {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Admin and Customer Sections */
+#admin-section, #customer-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2f855a;
+}
+
+p {
+    margin-top: 10px;
+}
+
+/* Buttons */
+button {
+    background-color: #38a169;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f855a;
+}
